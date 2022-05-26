@@ -1,0 +1,1 @@
+{"title":"test","description":"Apache License 2.0","instructions":"download","usage":"use it","contribution":"chip in","tests":"test it","github":"git","email":"m@me.com"}
