@@ -1,6 +1,6 @@
-# <ins>best ever</ins>
+<ins> #readme</ins>
 
-## <ins>Table of Contents
+## Table of Contents
 
 1. [Description](#Description)
 2. [Installation Instructions](#How_to_Install)
@@ -11,40 +11,35 @@
 7. [Credits/Collaborators](#Credits_and_Collaborators)
 8. [Contact Information](#Author_Contact_Information)
 
-### <ins>Description <a name="Description"></a></ins></br>
+<ins>### Description <a name="Description"></a></ins>
+best ever
 
-the best thing ever
+<ins>### How to Install <a name="How_to_Install"></a></ins>
+download
 
-### <ins>How to Install <a name="How_to_Install"></a></ins></br>
+<ins>### How to Use <a name="How_to_Use"></a></ins>
+use it
 
-click download
-
-### <ins>How to Use <a name="How_to_Use"></a></ins></br>
-
-enter the information
-
-### <ins>How to Contribute <a name="How_to_Install"></a></ins>
-
+<ins>### How to Contribute <a name="How_to_Install"></a></ins>
 [Code of Conduct Expected by All Contributors](https://www.contributor-covenant.org/version/2/1/code_of_conduct/)
+
+[Report bugs or make feature requests](https://github.com/brischster/readme/tree/main/.github/ISSUE_TEMPLATE)
 
 be nice
 
-### <ins>Tests Cases <a name="Test_Cases"></a></ins>
-
+<ins>### Tests Cases <a name="Test_Cases"></a></ins>
 tried and true
 
-### <ins>Badges and License<a name="Badges_and_License"></a></ins>
+<ins>### Badges and License<a name="Badges_and_License"></a></ins>
+MIT
 
-Apache License 2.0
-
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![Contributor Covenant](https://img.shields.io/badge/Contributor%20Covenant-2.1-4baaaa.svg)](code_of_conduct.md)
 
-### <ins>Credits and Collaborators<a name="Credits_and_Collaborators"></a></ins>
+<ins>### Credits and Collaborators<a name="Credits_and_Collaborators"></a></ins>
+me myself and I
 
-medium1
-
-### <ins>Author's Contact Information<a name="Author_Contact_Information"></a></ins>
-
-Ryan Brisch
-[Github Profile](github.com)
+<ins>### Author's Contact Information<a name="Author_Contact_Information"></a></ins>
+ryan</br>
+[Github Profile](github.com)</br>
 [Email Ryan](mailto:brischster@gmail.com)
