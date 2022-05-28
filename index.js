@@ -2,18 +2,6 @@
 const inquirer = require("inquirer");
 const fs = require("fs");
 
-// TODO: Create an array of questions for user input
-const questions = [];
-
-// TODO: Create a function to write README file
-function writeToFile(fileName, data) {}
-
-// TODO: Create a function to initialize app
-function init() {}
-
-// Function call to initialize app
-init();
-
 inquirer
   .prompt([
     {
@@ -93,52 +81,53 @@ inquirer
       }
     }
     getBadge(response.license);
-    const allPageInfo = `<ins> #${response.title}</ins>
+    const allPageInfo = `# <ins>${response.title}</ins>
 
-## Table of Contents
+## <ins>Table of Contents</ins>
 
-1. [Description](#Description)
-2. [Installation Instructions](#How_to_Install)
-3. [How to Use](#How_to_Use)
-4. [How to Contribute](#How_to_Contribute)
-5. [Tests](#Test_Cases)
-6. [Badges and License](#Badges_and_License)
-7. [Credits/Collaborators](#Credits_and_Collaborators)
-8. [Contact Information](#Author_Contact_Information)
+1. [Description](#description)
+2. [Installation Instructions](#how_to_install)
+3. [How to Use](#how_to_use)
+4. [How to Contribute](#how_to_contribute)
+5. [Tests](#test_cases)
+6. [Badges and License](#badges_and_license)
+7. [Credits/Collaborators](#credits_and_collaborators)
+8. [Contact Information](#author_contact_information)
 
-<ins>### Description <a name="Description"></a></ins>
+### <ins>Description </ins>
 ${response.description}
 
-<ins>### How to Install <a name="How_to_Install"></a></ins>
+### <ins>How to Install </ins>
 ${response.instructions}
 
-<ins>### How to Use <a name="How_to_Use"></a></ins>
+### <ins>How to Use </ins>
 ${response.usage}
 
-<ins>### How to Contribute <a name="How_to_Install"></a></ins>
+### <ins>How to Contribute </ins>
 [Code of Conduct Expected by All Contributors](https://www.contributor-covenant.org/version/2/1/code_of_conduct/)
 
 [Report bugs or make feature requests](https://github.com/brischster/${response.repo}/tree/main/.github/ISSUE_TEMPLATE)
 
 ${response.contribution}
 
-<ins>### Tests Cases <a name="Test_Cases"></a></ins>
+### <ins>Tests Cases </ins>
 ${response.tests}
 
-<ins>### Badges and License<a name="Badges_and_License"></a></ins>
+### <ins>Badges and License</ins>
 ${response.license}
 
 ${licenseInfo}
 [![Contributor Covenant](https://img.shields.io/badge/Contributor%20Covenant-2.1-4baaaa.svg)](code_of_conduct.md)
 
-<ins>### Credits and Collaborators<a name="Credits_and_Collaborators"></a></ins>
+### <ins>Credits and Collaborators</ins>
 ${response.credits}
 
-<ins>### Author's Contact Information<a name="Author_Contact_Information"></a></ins>
+### <ins>Author's Contact Information</ins>
 ${response.author}</br>
+Please contact me with any questions or general feedback at my below email or through my Github profile.
 [Github Profile](${response.github})</br>
 [Email Ryan](mailto:${response.email})`;
-    fs.writeFile("README.md", allPageInfo, (err) => {
+    fs.writeFile("README_Generatored.md", allPageInfo, (err) => {
       err
         ? console.log(err)
         : console.log("Responses have been loaded to README file");

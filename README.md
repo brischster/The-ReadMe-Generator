@@ -1,45 +1,59 @@
-<ins> #readme</ins>
+# <ins>The README Generator 2000</ins>
 
-## Table of Contents
+## <ins>Table of Contents</ins>
 
-1. [Description](#Description)
-2. [Installation Instructions](#How_to_Install)
-3. [How to Use](#How_to_Use)
-4. [How to Contribute](#How_to_Contribute)
-5. [Tests](#Test_Cases)
-6. [Badges and License](#Badges_and_License)
-7. [Credits/Collaborators](#Credits_and_Collaborators)
-8. [Contact Information](#Author_Contact_Information)
+1. [Description](#description)
+2. [Installation Instructions](#how_to_install)
+3. [How to Use](#how_to_use)
+4. [How to Contribute](#how_to_contribute)
+5. [Tests](#test_cases)
+6. [Badges and License](#badges_and_license)
+7. [Credits/Collaborators](#credits_and_collaborators)
+8. [Contact Information](#author_Contact_information)
 
-<ins>### Description <a name="Description"></a></ins>
-best ever
+### <ins>Description</ins>
 
-<ins>### How to Install <a name="How_to_Install"></a></ins>
-download
+The ReadMe Generator 2000 uses Inquirer library to ask a user a handful of simple questions to help them easily and quickly create a wonderful README file for all the programs that they write.
 
-<ins>### How to Use <a name="How_to_Use"></a></ins>
-use it
+### <ins>How to Install</ins>
 
-<ins>### How to Contribute <a name="How_to_Install"></a></ins>
+1. Install the Inquirer Library and download it's node modules into your develop folder for current project
+2. Run it through your Node.js
+
+### <ins>How to Use </ins>
+
+[Video Tutorial of how to use the program](https://drive.google.com/file/d/1nmlT-DcQgPvRXhLZeDAsXMuGiVri73oa/view)
+
+### <ins>How to Contribute </ins>
+
 [Code of Conduct Expected by All Contributors](https://www.contributor-covenant.org/version/2/1/code_of_conduct/)
 
-[Report bugs or make feature requests](https://github.com/brischster/readme/tree/main/.github/ISSUE_TEMPLATE)
+[Report bugs or make feature requests](https://github.com/brischster/most-interesting-ever/tree/main/.github/ISSUE_TEMPLATE)
 
-be nice
+Follow the above link to formally report bugs or make feature requests through the Github repository.
 
-<ins>### Tests Cases <a name="Test_Cases"></a></ins>
-tried and true
+Also please feel free to email me at the email provided below.
 
-<ins>### Badges and License<a name="Badges_and_License"></a></ins>
+### <ins>Tests Cases </ins>
+
+Tried and True!
+
+### <ins>Badges and License</ins>
+
 MIT
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![Contributor Covenant](https://img.shields.io/badge/Contributor%20Covenant-2.1-4baaaa.svg)](code_of_conduct.md)
 
-<ins>### Credits and Collaborators<a name="Credits_and_Collaborators"></a></ins>
-me myself and I
+### <ins>Credits and Collaborators</ins>
 
-<ins>### Author's Contact Information<a name="Author_Contact_Information"></a></ins>
-ryan</br>
+Ryan Brisch</br>
+Github</br>
+Eric Saylor</br>
+Medium1 Breakout Room
+
+### <ins>Author's Contact Information</ins>
+
+Ryan Brisch</br>
 [Github Profile](github.com)</br>
 [Email Ryan](mailto:brischster@gmail.com)
